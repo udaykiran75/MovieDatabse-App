@@ -1,0 +1,61 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.previous-button {
+  font-size: 10px;
+  font-family: Roboto;
+  border: none;
+  outline: none;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(223, 222, 222);
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    height: 30px;
+  }
+}
+.previous-button:hover {
+  background-color: rgb(255, 187, 0);
+  color: #ffffff;
+}
+.next-button {
+  font-size: 10px;
+  font-family: Roboto;
+  border: none;
+  outline: none;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(223, 222, 222);
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    height: 30px;
+  }
+}
+.next-button:hover {
+  background-color: rgb(21, 182, 0);
+  color: #ffffff;
+}
+.page-number {
+  font-size: 10px;
+  font-family: Roboto;
+  margin: 10px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: black;
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+}

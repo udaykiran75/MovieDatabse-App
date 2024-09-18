@@ -1,0 +1,61 @@
+.movie-details-container {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.movie-image {
+  width: 180px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  @media screen and (min-width: 768px) {
+    width: 300px;
+  }
+}
+.movie-title {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-left: 5px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+    text-align: start;
+    padding-left: 15px;
+  }
+}
+.movies-votes {
+  font-family: Roboto;
+  font-size: 10px;
+  margin-left: 5px;
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+}
+.text {
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: bold;
+  @media screen and (min-width: 768px) {
+    font-size: 17px;
+  }
+}
+.span-text {
+  font-weight: normal;
+  @media screen and (min-width: 768px) {
+    font-size: 17px;
+  }
+}
+.movie-details-section {
+  padding-left: 20px;
+  padding-right: 20px;
+  @media screen and (min-width: 768px) {
+    padding-right: 100px;
+  }
+}

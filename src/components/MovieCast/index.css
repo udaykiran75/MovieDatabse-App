@@ -1,0 +1,43 @@
+.cast-item {
+  margin: 2px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 5px;
+  background-color: rgb(61, 59, 59);
+  width: 90px;
+  @media screen and (min-width: 768px) {
+    width: 130px;
+    margin: 7px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+.profile-image {
+  height: 90px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    height: 150px;
+  }
+}
+.profile-name {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0px;
+  color: #ffffff;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 13px;
+  }
+}
+.profile-character {
+  font-family: Roboto;
+  font-size: 9px;
+  color: #ffffff;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+  }
+}

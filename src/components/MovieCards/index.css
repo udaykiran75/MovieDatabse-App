@@ -1,0 +1,57 @@
+.movie-list-item {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 15px;
+  width: 121px;
+  @media screen and (min-width: 768px) {
+    width: 238px;
+  }
+}
+.movie-poster-image {
+  width: 121px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  @media screen and (min-width: 768px) {
+    width: 238px;
+  }
+}
+.movie-name {
+  font-family: Roboto;
+  font-size: 11px;
+  margin: 0px;
+  margin-left: 5px;
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+}
+.movies-votes {
+  font-family: Roboto;
+  font-size: 10px;
+  margin-left: 5px;
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+}
+.voting-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.view-button {
+  font-family: Roboto;
+  background-color: rgb(223, 222, 222);
+  font-size: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 20px;
+  border-radius: 5px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    height: 30px;
+  }
+}
+.view-button:hover {
+  background-color: #51d0de;
+  color: #ffffff;
+}
